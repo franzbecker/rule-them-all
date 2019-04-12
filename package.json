@@ -1,6 +1,6 @@
 {
     "name": "rule-them-all",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "A simple multi-repository handling tool",
     "homepage": "https://github.com/franzbecker/rule-them-all",
     "author": {
