@@ -9,3 +9,11 @@ script:
     - yarn build
 after_success:
     - bash <(curl -s https://codecov.io/bash)
+deploy:
+    provider: npm
+    email: npm@franzbecker.io
+    api_key:
+        secure: mk1nIlAwGxsArEMyZgUcz3PO9fKGSReJAjJA3XdNvOQfk9Z5NTubZ4sETeuJS7UqZNurFYjRIvSYlP+uKpNVnmfisDXH5CFkDfVipFhW+IuGaz5yk2dzE1c61XbAAQ92hYZ7+SJz6gSTvC2m1SNLnu5QrcNb2pf2M4e7An/JDKHo+Ny0qbHKKwup+70mmnWET3nguc5rDoTDIQ25Jp6+CHJ0HMqD1R+Ivx8rjfcmYoHrbZDKDWKGXeYcCQMRp5EmMUu3pwTHdffWR8tO3KylF7moQAyH7FLROiEDGXvCXnd4EJnI3iCXm7NH8YJEZFKnuzqW3Kd/dQusGJTRx26U+V9OzbcXZK/lrfBUoKO3VSeyWJmUxBFq6UXpdJcg0mzwbguYjBhAnsnY1lYDB7awj/zAn7sETMtoEghHpK47DdEqpcGRntwvQ7p5DRSFmotlb7KCaMS8+DelhB+e23p82+8bE0YT4GSeRiIknVjNbitO71UzbtDJta4bHXAT/uZv8ZWOsMf6NVAT5PggdS7+TylhtDU7P69EfWaLJcouJxUFoM2sDyxmi3RNyuVTVqV7lYs51b7Xn0IFJjthXiJGBpiul+RqFqAf+fRyVYaXsMXp9qDNNOVPam2wT8TfToh3JlRqo85pFTblfXoO2G5LWq5ZPQc/Tjl7AT8Y0vXNrcM=
+    on:
+        tags: true
+        repo: franzbecker/rule-them-all

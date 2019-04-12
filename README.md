@@ -1,5 +1,13 @@
 # rule-them-all
 
+[![NPM version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+
+[npm-image]: https://badge.fury.io/js/rule-them-all.svg
+[npm-url]: https://npmjs.org/package/rule-them-all
+[travis-image]: https://travis-ci.org/franzbecker/rule-them-all.svg?branch=master
+[travis-url]: https://travis-ci.org/franzbecker/rule-them-all
+
 A simple multi-repository handling tool and my personal playground.
 
 The status of this project is __experimental__ 👻
