@@ -1,0 +1,14 @@
+# Source and Test
+src/
+test/
+coverage/
+
+# Tools
+.yarn/
+.idea/
+.editorconfig
+.travis.yml
+.prettierrc.yml
+jest.config.js
+tsconfig.json
+tslint.json
